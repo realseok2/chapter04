@@ -7,7 +7,7 @@ public class StringApp2 {
 		String a = new String(" abcd");
 		String b = new String(",efg ");
 
-		a = a.concat(b); //
+		a = a.concat(b); //	선택된 문자를 결합	-->	abcd,efg
 
 		System.out.println(a);
 
